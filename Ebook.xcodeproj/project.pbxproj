@@ -11,8 +11,11 @@
 		04C7BACE25598CA600CA4C6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BACD25598CA600CA4C6F /* SceneDelegate.swift */; };
 		04C7BAD025598CA600CA4C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BACF25598CA600CA4C6F /* ViewController.swift */; };
 		04C7BAD325598CA600CA4C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BAD125598CA600CA4C6F /* Main.storyboard */; };
-		04C7BAD525598CAA00CA4C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BAD425598CAA00CA4C6F /* Assets.xcassets */; };
 		04C7BAD825598CAA00CA4C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BAD625598CAA00CA4C6F /* LaunchScreen.storyboard */; };
+		04C7BAE2255990B300CA4C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BAE1255990B300CA4C6F /* Assets.xcassets */; };
+		04C7BAE8255B00C400CA4C6F /* Goldman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BAE6255B00C200CA4C6F /* Goldman-Regular.ttf */; };
+		04C7BAE9255B00C400CA4C6F /* Goldman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BAE7255B00C200CA4C6F /* Goldman-Bold.ttf */; };
+		04C7BAF2255C594E00CA4C6F /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BAF1255C594D00CA4C6F /* TeamsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +24,12 @@
 		04C7BACD25598CA600CA4C6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04C7BACF25598CA600CA4C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C7BAD225598CA600CA4C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04C7BAD425598CAA00CA4C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C7BAD725598CAA00CA4C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C7BAD925598CAA00CA4C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C7BAE1255990B300CA4C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C7BAE6255B00C200CA4C6F /* Goldman-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Regular.ttf"; sourceTree = "<group>"; };
+		04C7BAE7255B00C200CA4C6F /* Goldman-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Bold.ttf"; sourceTree = "<group>"; };
+		04C7BAF1255C594D00CA4C6F /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		04C7BACA25598CA600CA4C6F /* Ebook */ = {
 			isa = PBXGroup;
 			children = (
+				04C7BAE5255B00A600CA4C6F /* Font */,
 				04C7BACB25598CA600CA4C6F /* AppDelegate.swift */,
 				04C7BACD25598CA600CA4C6F /* SceneDelegate.swift */,
 				04C7BACF25598CA600CA4C6F /* ViewController.swift */,
 				04C7BAD125598CA600CA4C6F /* Main.storyboard */,
-				04C7BAD425598CAA00CA4C6F /* Assets.xcassets */,
+				04C7BAE1255990B300CA4C6F /* Assets.xcassets */,
 				04C7BAD625598CAA00CA4C6F /* LaunchScreen.storyboard */,
 				04C7BAD925598CAA00CA4C6F /* Info.plist */,
+				04C7BAF1255C594D00CA4C6F /* TeamsViewController.swift */,
 			);
 			path = Ebook;
+			sourceTree = "<group>";
+		};
+		04C7BAE5255B00A600CA4C6F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				04C7BAE7255B00C200CA4C6F /* Goldman-Bold.ttf */,
+				04C7BAE6255B00C200CA4C6F /* Goldman-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C7BAE8255B00C400CA4C6F /* Goldman-Regular.ttf in Resources */,
+				04C7BAE9255B00C400CA4C6F /* Goldman-Bold.ttf in Resources */,
 				04C7BAD825598CAA00CA4C6F /* LaunchScreen.storyboard in Resources */,
-				04C7BAD525598CAA00CA4C6F /* Assets.xcassets in Resources */,
+				04C7BAE2255990B300CA4C6F /* Assets.xcassets in Resources */,
 				04C7BAD325598CA600CA4C6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C7BAD025598CA600CA4C6F /* ViewController.swift in Sources */,
+				04C7BAF2255C594E00CA4C6F /* TeamsViewController.swift in Sources */,
 				04C7BACC25598CA600CA4C6F /* AppDelegate.swift in Sources */,
 				04C7BACE25598CA600CA4C6F /* SceneDelegate.swift in Sources */,
 			);
